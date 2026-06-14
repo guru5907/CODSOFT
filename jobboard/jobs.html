@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Job Board</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="jobs.html">Jobs</a>
+            <a href="employer.html">Employer</a>
+            <a href="candidate.html">Candidate</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+
+        <h2>Find Your Dream Job</h2>
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Search by Job Title..."
+            onkeyup="searchJobs()">
+
+            <h3 id="jobCount"></h3>
+
+    </section>
+
+    <!-- Job Listings -->
+
+    <div class="job">
+
+        <h2>Software Developer</h2>
+
+        <p><strong>Company:</strong> TCS</p>
+
+        <p><strong>Location:</strong> Chennai</p>
+
+        <p><strong>Salary:</strong> ₹6 LPA</p>
+
+        <a href="details.html">
+            <button>View Details</button>
+        </a>
+
+    </div>
+
+    <div class="job">
+
+        <h2>Web Developer</h2>
+
+        <p><strong>Company:</strong> Infosys</p>
+
+        <p><strong>Location:</strong> Bangalore</p>
+
+        <p><strong>Salary:</strong> ₹5.5 LPA</p>
+
+        <a href="details.html">
+            <button>View Details</button>
+        </a>
+
+    </div>
+
+    <div class="job">
+
+        <h2>Frontend Developer</h2>
+
+        <p><strong>Company:</strong> Wipro</p>
+
+        <p><strong>Location:</strong> Hyderabad</p>
+
+        <p><strong>Salary:</strong> ₹5 LPA</p>
+
+        <a href="details.html">
+            <button>View Details</button>
+        </a>
+
+    </div>
+
+    <div class="job">
+
+        <h2>Python Developer</h2>
+
+        <p><strong>Company:</strong> Cognizant</p>
+
+        <p><strong>Location:</strong> Pune</p>
+
+        <p><strong>Salary:</strong> ₹7 LPA</p>
+
+        <a href="details.html">
+            <button>View Details</button>
+        </a>
+
+    </div>
+
+    <div class="job">
+
+        <h2>Cloud Engineer</h2>
+
+        <p><strong>Company:</strong> Accenture</p>
+
+        <p><strong>Location:</strong> Mumbai</p>
+
+        <p><strong>Salary:</strong> ₹8 LPA</p>
+
+        <a href="details.html">
+            <button>View Details</button>
+        </a>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 Job Board | All Rights Reserved</p>
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
